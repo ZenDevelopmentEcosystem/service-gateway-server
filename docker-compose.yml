@@ -1,0 +1,11 @@
+---
+version: "3.7"
+services:
+  service-gateway:
+    image: perbohlin/service-gateway-server:test
+    container_name: service-gateway
+    restart: always
+    expose:
+      - 22
+    ports:
+      - "2222:22"

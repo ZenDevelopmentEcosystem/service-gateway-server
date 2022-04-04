@@ -1,1 +1,4 @@
-# Nothing ignored
+# Run as root user, sshd need to run as root in order to login as multiple users
+DS002
+# Expose port 22, sshd default port is 22
+DS004

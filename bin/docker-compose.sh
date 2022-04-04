@@ -3,7 +3,7 @@
 #
 set -eu -o pipefail
 
-PROJECT_NAME=gitinfo
+PROJECT_NAME=servicegw
 ENV_FILE=./.env
 
 ARGS=("$@")

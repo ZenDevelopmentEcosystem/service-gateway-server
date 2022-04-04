@@ -4,3 +4,5 @@ dist/
 __pycache__/
 .trivycache
 .coverage
+local-docker-compose.yml
+.env
